@@ -1,0 +1,28 @@
+body {
+    font-family: $primary-text, sans-serif;
+    font-size: $primary-font-size;
+    font-weight: $primary-font-weight;
+    line-height: $primary-line-height;
+    letter-spacing: $primary-letter-spacing;
+    color: $primary-text-color;
+    background-color: $primary-background-color;
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+a {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
