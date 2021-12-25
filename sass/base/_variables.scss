@@ -1,0 +1,39 @@
+//  Опеределяем шрифт 
+//  Основной шрифт: Open Sans 
+//  Вторичный шрифт: Raleway 
+
+//  Свойства шрифта 
+//  Основной размер шрифта: 18px;
+//  Основной вес шрифта: 400;
+//  Основная высота строки: 1.6;
+//  Основное расстояние между буквами: 0.02em;
+
+//  Опеределяем палитру цветов шрифта 
+//  Основной цвет шрифта: #555555; 
+//  Вторичный цвет шрифта: #9DA4BD; 
+//  Третий цвет шрифта: #303030;
+//  Акцент шрифта: #FF6C00;
+
+//  Опеределяем палитру цветов фона 
+//  Основной цвет фона: #FFFFFF;
+//  Вторичный цвет фона: #F7F7F7;
+
+/* Шрифт */
+$primary-text: 'Open Sans';
+$secondary-text: 'Raleway';
+
+/* Свойства шрифта */
+$primary-font-size: 18px;
+$primary-font-weight: 400;
+$primary-line-height: 1.6;
+$primary-letter-spacing: 0.02em;
+
+/* Цвет шрифта */
+$primary-text-color: #555555;
+$secondary-text-color: #9DA4BD;
+$other-text-color: #303030;
+$accent-text-color: #FF6C00;
+
+/* Цвет фона */
+$primary-background-color: #FFFFFF;
+$secondary-background-color: #F7F7F7;
