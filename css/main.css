@@ -461,4 +461,31 @@ sup {
 .social-list__link:hover, .social-list__link:focus {
   fill: #FF6C00;
 }
+
+.portfolio__subtitle {
+  position: relative;
+  margin-bottom: 44px;
+  padding-left: 80px;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #303030;
+}
+
+.portfolio__subtitle::before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 7px;
+  width: 60px;
+  height: 1px;
+  background: #303030;
+}
+
+.portfolio-list__item:not(:last-child) {
+  margin-bottom: 30px;
+}
 /*# sourceMappingURL=main.css.map */
