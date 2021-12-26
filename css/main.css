@@ -279,4 +279,88 @@ img {
   margin-right: auto;
   color: #FFF;
 }
+
+.why-us__subtitle {
+  position: relative;
+  margin-bottom: 20px;
+  padding-left: 80px;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #303030;
+}
+
+.why-us__subtitle::before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 7px;
+  width: 60px;
+  height: 1px;
+  background: #303030;
+}
+
+.why-us__title {
+  margin-bottom: 20px;
+  font-family: "Raleway";
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+  color: #303030;
+}
+
+.why-us__description {
+  margin-bottom: 64px;
+}
+
+.achievments-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: -15px;
+}
+
+.achievments-list__item {
+  width: calc((100% - 2 * 30px)/2);
+  margin: 15px;
+  padding: 20px 32px;
+  text-align: center;
+  background-color: #f7f7f7;
+}
+
+.achievments-list__item:nth-child(2) {
+  margin-top: 45px;
+  margin-bottom: 0;
+}
+
+.achievments-list__item:nth-child(3) {
+  margin-top: 0;
+}
+
+.achievments-list__number {
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 57px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #303030;
+}
+
+.achievments-list__description {
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 15px;
+  text-align: center;
+  color: #303030;
+}
+
+sup {
+  color: #FF6C00;
+}
 /*# sourceMappingURL=main.css.map */
