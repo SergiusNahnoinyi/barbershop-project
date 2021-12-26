@@ -488,4 +488,49 @@ sup {
 .portfolio-list__item:not(:last-child) {
   margin-bottom: 30px;
 }
+
+.footer {
+  background-color: #191C26;
+}
+
+.inquiry-form {
+  padding-top: 84px;
+  padding-bottom: 84px;
+  text-align: center;
+}
+
+.inquiry-form__title {
+  margin-bottom: 44px;
+  font-family: "Raleway";
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+
+.inquiry-form__field {
+  margin-bottom: 44px;
+}
+
+.inquiry-form__input,
+.inquiry-form__textarea {
+  display: block;
+  width: 100%;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: white;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(157, 164, 189, 0.4);
+}
+
+.inquiry-button {
+  margin-left: auto;
+  margin-right: auto;
+  color: #FFF;
+}
 /*# sourceMappingURL=main.css.map */
