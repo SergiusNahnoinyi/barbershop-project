@@ -43,6 +43,7 @@ img {
 
 .page-header {
   padding-top: 40px;
+  margin-bottom: 84px;
   height: 580px;
   background-color: black;
 }
@@ -88,7 +89,7 @@ img {
   width: 306px;
 }
 
-.subtitle {
+.hero__subtitle {
   position: relative;
   margin-bottom: 20px;
   padding-left: 80px;
@@ -100,7 +101,7 @@ img {
   color: #9DA4BD;
 }
 
-.subtitle::before {
+.hero__subtitle::before {
   content: '';
   display: block;
   position: absolute;
@@ -111,7 +112,7 @@ img {
   background: rgba(157, 164, 189, 0.6);
 }
 
-.title {
+.hero__title {
   margin-bottom: 20px;
   font-family: "Raleway";
   font-weight: bold;
@@ -121,7 +122,7 @@ img {
   color: #FFFFFF;
 }
 
-.description {
+.hero__description {
   font-size: 16px;
   line-height: 26px;
   color: #9DA4BD;

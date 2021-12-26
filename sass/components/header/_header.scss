@@ -1,5 +1,6 @@
 .page-header {
     padding-top: 40px;
+    margin-bottom: 84px;
     height: 580px;
     background-color: black;
 }
@@ -31,7 +32,7 @@
     width: 306px;
 }
 
-.subtitle {
+.hero__subtitle {
     position: relative;
     margin-bottom: 20px;
     padding-left: 80px;
@@ -54,7 +55,7 @@
     }
 }
 
-.title {
+.hero__title {
     margin-bottom: 20px;
     font-family: $secondary-text;
     font-weight: bold;
@@ -64,7 +65,7 @@
     color: #FFFFFF;
 }
 
-.description {
+.hero__description {
     font-size: 16px;
     line-height: 26px;
     color: $secondary-text-color;
