@@ -188,8 +188,8 @@ img {
   text-transform: uppercase;
   color: #303030;
   background-color: transparent;
-  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border: 1px solid #FF6C00;
   border-radius: 25px;
   cursor: pointer;
@@ -362,5 +362,103 @@ img {
 
 sup {
   color: #FF6C00;
+}
+
+.masters {
+  padding-top: 84px;
+  padding-bottom: 84px;
+  background-color: #f7f7f7;
+}
+
+.masters__subtitle {
+  position: relative;
+  margin-bottom: 20px;
+  padding-left: 80px;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #303030;
+}
+
+.masters__subtitle::before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 7px;
+  width: 60px;
+  height: 1px;
+  background: #303030;
+}
+
+.masters__title {
+  margin-bottom: 44px;
+  font-family: "Raleway";
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+  color: #303030;
+}
+
+.masters-list__item:not(:last-child) {
+  margin-bottom: 64px;
+}
+
+.masters-list__image {
+  margin-bottom: 30px;
+}
+
+.masters-list__title {
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 25px;
+  text-align: center;
+  color: #303030;
+}
+
+.masters-list__description {
+  margin-bottom: 30px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 19px;
+  text-align: center;
+  color: #FF6C00;
+}
+
+.social-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.social-list__item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-list__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+  padding: 12px;
+  background-color: white;
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-list__link:hover, .social-list__link:focus {
+  fill: #FF6C00;
 }
 /*# sourceMappingURL=main.css.map */
