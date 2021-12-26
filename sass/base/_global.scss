@@ -28,7 +28,8 @@ img {
 }
 
 .container {
-    width: 480px; 
+    min-width: 320px; // Указание min i max ширины делает контейнер тянущим
+    max-width: 480px; 
     padding-left: 31px;
     padding-right: 31px;
     margin-right: auto;
