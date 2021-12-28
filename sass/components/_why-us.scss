@@ -38,12 +38,12 @@
 .achievments-list {
     display: flex;
     flex-wrap: wrap;
-    margin: -15px;
 
     &__item {
         width: calc((100% - 2 * 30px)/2);
         margin: 15px;
         padding: 20px 32px;
+        height: 100%;
         text-align: center;
         background-color: #f7f7f7;
     }
@@ -54,6 +54,10 @@
             &__item:nth-child(3) {
                 margin-top: 0;
             }
+                    &__item:nth-child(4) {
+                        margin-top: 30px;
+                        margin-bottom: 0;
+                    }
 }
 
 .achievments-list__number {

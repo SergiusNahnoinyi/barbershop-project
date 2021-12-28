@@ -323,13 +323,13 @@ img {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: -15px;
 }
 
 .achievments-list__item {
   width: calc((100% - 2 * 30px)/2);
   margin: 15px;
   padding: 20px 32px;
+  height: 100%;
   text-align: center;
   background-color: #f7f7f7;
 }
@@ -341,6 +341,11 @@ img {
 
 .achievments-list__item:nth-child(3) {
   margin-top: 0;
+}
+
+.achievments-list__item:nth-child(4) {
+  margin-top: 30px;
+  margin-bottom: 0;
 }
 
 .achievments-list__number {
