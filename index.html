@@ -12,21 +12,10 @@
 </head>
 <body>
     <header class="page-header">
-        <div class="slider-container">
-            <div class="slider">
-                <div class="slide active">
-                    <img class="slide__image" src="./images/mobile/slider-image-1-480.jpg" alt="Slider image 1" srcset="./images/mobile/slider-image-1-480.jpg 1x, ./images/mobile/slider-image-1@2x.jpg 2x">
-                </div>
-                <div class="slide">
-                    <img class="slide__image" src="./images/mobile/slider-image-2-480.jpg" alt="Slider image 2" srcset="./images/mobile/slider-image-2-480.jpg 1x, ./images/mobile/slider-image-2@2x.jpg 2x">
-                </div>
-                <div class="slide">
-                    <img class="slide__image" src="./images/mobile/slider-image-3-480.jpg" alt="Slider image 3" srcset="./images/mobile/slider-image-3-480.jpg 1x, ./images/mobile/slider-image-3@2x.jpg 2x">
-                </div>
-            </div>
-        </div>
-        <!-- <div class="container">
-            <div class="flex-container">
+        <!-- Контейнер поверх слайдера -->
+        <div class="absolute-container">
+            <!-- Навигация -->
+            <div class="navigation-container">
                 <a class="company-logo" href="./index.html">
                     <svg width="69" height="56">
                         <use href="images/icons.svg#icon-logo">
@@ -40,13 +29,27 @@
                     </svg>
                 </button>
             </div>
-             Блок-герой
+             <!-- Блок-герой -->
             <section class="hero">
                 <h3 class="hero__subtitle">A hair salon for men in Kyiv</h3>
                 <h1 class="hero__title">BarberShop</h1>
                 <p class="hero__description">Мы эксперты в модных мужских стрижках. Работаем быстро, осторожно и со вкусом.</p>
             </section>
-        </div> -->
+        </div>
+            <!-- Слайдер -->
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slide active">
+                        <img class="slide__image" src="./images/mobile/slider-image-1-480.jpg" alt="Slider image 1" srcset="./images/mobile/slider-image-1-480.jpg 1x, ./images/mobile/slider-image-1@2x.jpg 2x">
+                    </div>
+                    <div class="slide">
+                        <img class="slide__image" src="./images/mobile/slider-image-2-480.jpg" alt="Slider image 2" srcset="./images/mobile/slider-image-2-480.jpg 1x, ./images/mobile/slider-image-2@2x.jpg 2x">
+                    </div>
+                    <div class="slide">
+                        <img class="slide__image" src="./images/mobile/slider-image-3-480.jpg" alt="Slider image 3" srcset="./images/mobile/slider-image-3-480.jpg 1x, ./images/mobile/slider-image-3@2x.jpg 2x">
+                    </div>
+                </div>
+            </div>
     </header>
     <main>
         <!-- О нас -->
