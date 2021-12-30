@@ -11,20 +11,19 @@
 }
 
 .footer-list {
-    position: relative;
     display: flex;
     align-items: center;
     margin-bottom: 20px;
     justify-content: flex-end;
 
-        &::after {
+        &::before {
             content: '';
             display: block;
-            position: absolute;
             left: 140px;
             top: 7px;
             width: 60px;
             height: 1px;
+            margin-right: 40px;
             background: rgba(157, 164, 189, 0.6);
         }
 }
