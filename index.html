@@ -22,7 +22,7 @@
                         </use>
                     </svg>
                 </a>
-                <button class="menu-button">
+                <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
                     <svg width="24" height="16">
                         <use href="images/icons.svg#icon-button">
                         </use>
@@ -49,6 +49,36 @@
                         <img class="slide__image" src="./images/mobile/slider-image-3-480.jpg" alt="Slider image 3" srcset="./images/mobile/slider-image-3-480.jpg 1x, ./images/mobile/slider-image-3@2x.jpg 2x">
                     </div>
                 </div>
+            </div>
+            <!-- Мобильное меню -->
+            <div class="menu-container js-menu-container" id="mobile-menu">
+                <button class="menu-toggle js-close-menu" aria-expanded="false" aria-controls="mobile-menu">
+                    <svg width="24" height="16">
+                        <use href="images/icons.svg#icon-close">
+                        </use>
+                    </svg>
+                </button>
+                <!-- Навигация мобильного меню -->
+                <nav class="mobile-site-nav">
+                    <ul class="mobile-site-nav__list">
+                        <li class="mobile-site-nav__item"><a href="./index.html#about-us" class="mobile-site-nav__link mobile-site-nav__link--current">О нас</a></li>
+                        <li class="mobile-site-nav__item"><a href="./index.html#price" class="mobile-site-nav__link">Услуги и цены</a></li>
+                        <li class="mobile-site-nav__item"><a href="./index.html#masters" class="mobile-site-nav__link">Мастера</a></li>
+                        <li class="mobile-site-nav__item"><a href="./index.html#contacts" class="mobile-site-nav__link">Контакты</a></li>
+                    </ul>
+                </nav>
+                <!-- Контакты -->
+                <div class="mobile-contacts-list">
+                    <a class="mobile-contacts-list__link" href="tel:+380961111111" aria-label="Позвонить по телефону">
+                        +38 044 111 11 11
+                    </a>
+                </div>
+                <button class="button mobile-button">Онлайн-запись</button>
+                <!-- Соц. сети -->
+                <ul class="mobile-social-list">
+                    <li class="mobile-social-list__item"><a class="mobile-social-list__link" href="https://www.instagram.com/" target="_blank" aria-label="Instagram">Instagram</a></li>
+                    <li class="mobile-social-list__item"><a class="mobile-social-list__link" href="https://www.youtube.com/" target="_blank" aria-label="Youtube">Youtube</a></li>
+                </ul>
             </div>
     </header>
     <main>
@@ -331,6 +361,12 @@
             <p class="copyright">© Copyright 2021</p>
         </div>
     </footer>
+    <!-- Подключение скрипта slider.js -->
     <script src="./js/slider.js"></script>
+    <!-- Подключение скрипта mobile-menu.js -->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+        integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+        crossorigin="anonymous"></script>
+    <script defer src="js/mobile-menu.js"></script>
 </body>
 </html>

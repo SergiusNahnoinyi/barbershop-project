@@ -44,27 +44,3 @@
     font-size: 14px;
     line-height: 26px;
 }
-
-.button {
-    display: block;
-    // margin-left: auto;
-    // margin-right: auto;
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 0.09em;
-    padding: 12px 20px;
-    text-transform: uppercase;
-    color: $other-text-color;
-    background-color: transparent;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    border: 1px solid #FF6C00;
-    border-radius: 25px;
-    cursor: pointer;
-
-    &:hover,
-    &:focus {
-        color: #FFF;
-        background-color: #FF6C00;
-    }
-}
