@@ -48,9 +48,15 @@ img {
 .page-header {
   margin-bottom: 84px;
   min-width: 320px;
-  max-width: 480px;
+  max-width: 768px;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media (max-width: 767px) {
+  .page-header {
+    max-width: 480px;
+  }
 }
 
 .absolute-container {
@@ -60,6 +66,12 @@ img {
   z-index: 2;
   padding-left: 31px;
   padding-right: 31px;
+}
+
+@media (min-width: 768px) {
+  .absolute-container {
+    display: none;
+  }
 }
 
 .navigation-container {
@@ -164,10 +176,15 @@ img {
 }
 
 .slider {
-  max-width: 480px;
-  width: 100%;
+  max-width: 768px;
   height: auto;
   position: relative;
+}
+
+@media (max-width: 767px) {
+  .slider {
+    max-width: 480px;
+  }
 }
 
 .slide {
