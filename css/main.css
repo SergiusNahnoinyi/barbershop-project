@@ -46,6 +46,7 @@ img {
 }
 
 .page-header {
+  position: relative;
   margin-bottom: 84px;
   min-width: 320px;
   max-width: 768px;
@@ -62,6 +63,7 @@ img {
 .absolute-container {
   position: absolute;
   max-width: 480px;
+  width: 100%;
   top: 40px;
   z-index: 2;
   padding-left: 31px;
@@ -70,7 +72,12 @@ img {
 
 @media (min-width: 768px) {
   .absolute-container {
-    display: none;
+    max-width: 546px;
+    width: 100%;
+    left: 384px;
+    -webkit-transform: translate(-50%, 0%);
+            transform: translate(-50%, 0%);
+    padding: 0;
   }
 }
 
@@ -93,10 +100,86 @@ img {
   }
 }
 
+@media (min-width: 768px) {
+  .navigation-container {
+    margin-bottom: 156px;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
+}
+
+@media (max-width: 767px) {
+  .site-nav,
+  .contacts-container {
+    display: none;
+  }
+}
+
+.site-nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.site-nav__item:not(:last-child) {
+  margin-right: 24px;
+}
+
+.site-nav__link,
+.contacts-link {
+  display: block;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  color: #FFF;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.site-nav__link:hover, .site-nav__link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #FF6C00;
+}
+
+.contacts-button {
+  display: block;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.09em;
+  padding: 12px 20px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: transparent;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid #FF6C00;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.contacts-button:hover, .contacts-button:focus {
+  background-color: #FF6C00;
+}
+
 .company-logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+@media (min-width: 768px) {
+  .company-logo {
+    display: none;
+  }
 }
 
 .menu-toggle {
@@ -116,6 +199,18 @@ img {
   background-color: transparent;
   border: none;
   cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .menu-toggle {
+    display: none;
+  }
+}
+
+.hero {
+  max-width: 355px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero__subtitle {
