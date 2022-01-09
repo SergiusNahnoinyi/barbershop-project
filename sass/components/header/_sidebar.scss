@@ -1,0 +1,52 @@
+.sidebar {
+    float: left;
+    width: 159px;
+    height: 680px;
+    padding: 32px;
+
+    @media (max-width: 767px) {
+        display: none;
+    }
+}
+
+.sidebar__company-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.sidebar__social-list {
+    display: flex;
+    flex-direction: row;
+    transform: rotate(-90deg);
+    margin-top: 400px;
+}
+
+.sidebar__social-list-item:first-child {
+    margin-right: 40px;
+    position: relative;
+
+            &::before {
+                content: '';
+                position: absolute;
+                top: 8px;
+                right: 80px;
+                display: block;
+                width: 60px;
+                height: 1px;
+                margin-right: 40px;
+                background: #303030;
+            }
+}
+
+.sidebar__social-link {
+    display: block;
+    font-family: $primary-text;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.2em;
+    color: $other-text-color;
+}
+
+

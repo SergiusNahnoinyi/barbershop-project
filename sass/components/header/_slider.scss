@@ -1,18 +1,8 @@
-.slider-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.slider {
-    max-width: 768px;
-    height: auto;
-    position: relative;
-
     @media (max-width: 767px) {
+        .slider {
         max-width: 480px;
+        }
     }
-}
 
 .slide {
     width: 100%;

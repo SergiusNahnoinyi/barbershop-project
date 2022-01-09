@@ -23,7 +23,7 @@
     @media (min-width: 768px) {
         max-width: 546px;
         width: 100%;
-        left: 384px;
+        left: 463px;
         transform: translate(-50%, 0%);
         padding: 0;
     }
@@ -102,6 +102,7 @@
 
 .company-logo {
     display: flex;
+    fill: #fff;
 
         @media (min-width: 768px) {
             display: none;
