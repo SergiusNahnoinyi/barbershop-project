@@ -46,6 +46,9 @@ img {
 }
 
 .page-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   position: relative;
   margin-bottom: 84px;
   min-width: 320px;
@@ -262,7 +265,6 @@ img {
 }
 
 .sidebar {
-  float: left;
   width: 159px;
   height: 680px;
   padding: 32px;

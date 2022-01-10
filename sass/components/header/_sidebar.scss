@@ -1,12 +1,10 @@
 .sidebar {
-    float: left;
     width: 159px;
     height: 680px;
     padding: 32px;
-
-    @media (max-width: 767px) {
-        display: none;
-    }
+        @media (max-width: 767px) {
+            display: none;
+        }
 }
 
 .sidebar__company-logo {

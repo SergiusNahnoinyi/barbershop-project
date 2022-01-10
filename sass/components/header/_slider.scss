@@ -1,8 +1,8 @@
-    @media (max-width: 767px) {
-        .slider {
-        max-width: 480px;
+.slider {
+        @media (max-width: 767px) {
+            max-width: 480px;
         }
-    }
+}
 
 .slide {
     width: 100%;
