@@ -563,6 +563,29 @@ img {
   color: #303030;
 }
 
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container-info {
+  width: 330px;
+}
+
+@media (max-width: 767px) {
+  .container-info {
+    display: none;
+  }
+}
+
+.image-list__item:first-child {
+  margin-bottom: 39px;
+}
+
 .about-us__subtitle {
   position: relative;
   margin-bottom: 20px;

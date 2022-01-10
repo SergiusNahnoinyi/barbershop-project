@@ -1,3 +1,21 @@
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.container-info {
+    width: 330px;
+
+    @media (max-width: 767px) {
+        display: none;
+    }
+}
+
+.image-list__item:first-child {
+    margin-bottom: 39px;
+}
+
 .about-us__subtitle {
     position: relative;
     margin-bottom: 20px;

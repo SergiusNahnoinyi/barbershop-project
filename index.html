@@ -132,12 +132,28 @@
     <main>
         <!-- О нас -->
         <section class="about-us section" id="about-us">
-            <div class="container">
-                <h3 class="about-us__subtitle">О нас</h3>
-                <h2 class="about-us__title">Лучший Барбершоп твоего города</h2>
-                <b class="about-us__call-to-action">Если ты хочешь добавить в свой образ больше уверенности – тебе точно к нам.</b>
-                <p class="about-us__description">Мы команда, которая никогда не останавливается на достигнутом и жаждет перемен. И когда ты попадешь в руки нашего мастера, то уже никогда не сможешь быть прежним. Мы команда, которая всегда с клиентами "на одной волне". Поэтому, мы всегда готовы усовершенствовать каждого, кто к нам приходит!</p>
-                <button class="button">Онлайн-запись</button>
+            <div class="container flex-container">
+                <ul class="image-list">
+                    <li class="image-list__item">
+                        <picture>
+                            <source srcset="./images/tablet/foam.jpg 1x, ./images/tablet/foam@2x.jpg 2x" media="(min-width: 768px)"/>
+                            <img src="./images/tablet/foam.jpg" alt="Foam"/>
+                        </picture>
+                    </li>
+                    <li class="image-list__item">
+                        <picture>
+                            <source srcset="./images/tablet/haircut.jpg 1x, ./images/tablet/haircut@2x.jpg 2x" media="(min-width: 768px)"/>
+                            <img src="./images/tablet/haircut.jpg" alt="Haircut"/>
+                        </picture>
+                    </li>
+                </ul>
+                <div class="container-info">
+                    <h3 class="about-us__subtitle">О нас</h3>
+                    <h2 class="about-us__title">Лучший Барбершоп твоего города</h2>
+                    <b class="about-us__call-to-action">Если ты хочешь добавить в свой образ больше уверенности – тебе точно к нам.</b>
+                    <p class="about-us__description">Мы команда, которая никогда не останавливается на достигнутом и жаждет перемен. И когда ты попадешь в руки нашего мастера, то уже никогда не сможешь быть прежним. Мы команда, которая всегда с клиентами "на одной волне". Поэтому, мы всегда готовы усовершенствовать каждого, кто к нам приходит!</p>
+                    <button class="button">Онлайн-запись</button>
+                </div>
             </div>
         </section>
         <!-- Услуги и цены -->
