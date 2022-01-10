@@ -34,15 +34,29 @@ img {
 
 .container {
   min-width: 320px;
-  max-width: 480px;
-  padding-left: 31px;
-  padding-right: 31px;
+  max-width: 768px;
+  padding-left: 39px;
+  padding-right: 39px;
   margin-right: auto;
   margin-left: auto;
 }
 
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 480px;
+    padding-left: 31px;
+    padding-right: 31px;
+  }
+}
+
 .section {
-  margin-bottom: 84px;
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 767px) {
+  .section {
+    margin-bottom: 84px;
+  }
 }
 
 .page-header {
@@ -50,7 +64,7 @@ img {
   display: -ms-flexbox;
   display: flex;
   position: relative;
-  margin-bottom: 84px;
+  margin-bottom: 100px;
   min-width: 320px;
   max-width: 768px;
   margin-left: auto;
@@ -60,6 +74,7 @@ img {
 @media (max-width: 767px) {
   .page-header {
     max-width: 480px;
+    margin-bottom: 84px;
   }
 }
 

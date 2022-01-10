@@ -29,13 +29,21 @@ img {
 
 .container {
     min-width: 320px; // Указание min i max ширины делает контейнер тянущим
-    max-width: 480px; 
-    padding-left: 31px;
-    padding-right: 31px;
+    max-width: 768px; 
+    padding-left: 39px;
+    padding-right: 39px;
     margin-right: auto;
     margin-left: auto;
+        @media screen and (max-width: 767px) {
+            max-width: 480px;
+            padding-left: 31px;
+            padding-right: 31px;
+        }
 }
 
 .section {
-    margin-bottom: 84px;
+    margin-bottom: 100px;
+        @media screen and (max-width: 767px) {
+            margin-bottom: 84px;
+        }
 }

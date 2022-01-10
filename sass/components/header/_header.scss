@@ -1,7 +1,7 @@
 .page-header {
     display: flex;
     position: relative;
-    margin-bottom: 84px;
+    margin-bottom: 100px;
     min-width: 320px;
     max-width: 768px;
     margin-left: auto;
@@ -9,6 +9,7 @@
 
     @media (max-width: 767px) {
         max-width: 480px;
+        margin-bottom: 84px;
     }
 }
 
