@@ -563,21 +563,25 @@ img {
   color: #303030;
 }
 
-.flex-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+@media (min-width: 768px) {
+  .flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
 }
 
-.container-info {
-  width: 330px;
+@media (min-width: 768px) {
+  .container-info {
+    width: 330px;
+  }
 }
 
 @media (max-width: 767px) {
-  .container-info {
+  .image-list {
     display: none;
   }
 }
