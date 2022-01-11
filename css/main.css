@@ -739,6 +739,17 @@ img {
   color: #FFF;
 }
 
+.description-wrapper {
+  margin-bottom: 64px;
+}
+
+@media (min-width: 768px) {
+  .description-wrapper {
+    width: 500px;
+    margin-bottom: 44px;
+  }
+}
+
 .why-us__subtitle {
   position: relative;
   margin-bottom: 20px;
@@ -772,16 +783,18 @@ img {
   color: #303030;
 }
 
-.why-us__description {
-  margin-bottom: 64px;
-}
-
 .achievments-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+  .achievments-list {
+    margin-left: auto;
+  }
 }
 
 .achievments-list__item {
