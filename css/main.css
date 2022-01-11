@@ -793,6 +793,7 @@ img {
 
 @media (min-width: 768px) {
   .achievments-list {
+    width: 450px;
     margin-left: auto;
   }
 }
@@ -858,7 +859,16 @@ sup {
   background-color: #f7f7f7;
 }
 
+@media screen and (min-width: 768px) {
+  .masters {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+  }
+}
+
 .masters__subtitle {
+  display: inline-block;
   position: relative;
   margin-bottom: 20px;
   padding-left: 80px;
@@ -897,6 +907,13 @@ sup {
 
 .masters-list__image {
   margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  .masters-list__image {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .masters-list__title {
