@@ -367,21 +367,23 @@
             <!-- Форма для заявок -->
             <form class="inquiry-form" name="inquiry_form" autocomplete="off" novalidate>
                 <h1 class="inquiry-form__title">Онлайн-запись</h1>
-                <div class="inquiry-form__field">
-                    <label class="inquiry-form__label" for="user-name">
-                        <input class="inquiry-form__input" type="text" name="user_name" id="user-name" placeholder="Имя*" />
-                    </label>
-                </div>
-                <div class="inquiry-form__field">
-                    <label class="inquiry-form__label" for="user-name">
-                        <input class="inquiry-form__input" type="text" name="user_name" id="user-name" placeholder="Телефон*" />
-                    </label>
-                </div>
-                <div class="inquiry-form__field">
-                    <label class="inquiry-form__label" for="user-comment">
-                        <textarea class="inquiry-form__textarea" name="сomments" rows="5" placeholder="Сообщение" id="user-comment"></textarea>
-                    </label>
-                </div>
+                <ul class="inquiry-form__list"><!-- убирает зазор в строчно-блочных элементах
+                --><li class="inquiry-form__item">
+                        <label class="inquiry-form__label" for="user-name">
+                            <input class="inquiry-form__input" type="text" name="user_name" id="user-name" placeholder="Имя*" />
+                        </label>
+                    </li><!-- убирает зазор в строчно-блочных элементах
+                 --><li class="inquiry-form__item">
+                        <label class="inquiry-form__label" for="user-name">
+                            <input class="inquiry-form__input" type="text" name="user_name" id="user-name" placeholder="Телефон*" />
+                        </label>
+                    </li><!-- убирает зазор в строчно-блочных элементах
+                 --><li class="inquiry-form__item">
+                        <label class="inquiry-form__label" for="user-comment">
+                            <textarea class="inquiry-form__textarea" name="сomments" rows="5" placeholder="Сообщение" id="user-comment"></textarea>
+                        </label>
+                    </li>
+                </ul>
                 <button class="button inquiry-button" type="submit">Отправить</button>
             </form>
         </div>

@@ -1077,6 +1077,13 @@ sup {
   text-align: center;
 }
 
+@media screen and (min-width: 768px) {
+  .inquiry-form {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
 .inquiry-form__title {
   margin-bottom: 44px;
   font-family: "Raleway";
@@ -1087,8 +1094,31 @@ sup {
   color: #FFFFFF;
 }
 
-.inquiry-form__field {
+@media screen and (min-width: 768px) {
+  .inquiry-form__title {
+    text-align: left;
+  }
+}
+
+.inquiry-form__list {
   margin-bottom: 44px;
+}
+
+.inquiry-form__item:not(:last-child) {
+  margin-bottom: 44px;
+}
+
+@media screen and (min-width: 768px) {
+  .inquiry-form__item:not(:last-child) {
+    display: inline-block;
+    width: 330px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .inquiry-form__item:first-child {
+    margin-right: 30px;
+  }
 }
 
 .inquiry-form__input,
@@ -1110,6 +1140,12 @@ sup {
   margin-left: auto;
   margin-right: auto;
   color: #FFF;
+}
+
+@media screen and (min-width: 768px) {
+  .inquiry-button {
+    margin-left: 0;
+  }
 }
 
 .contacts {
