@@ -1017,9 +1017,32 @@ sup {
   background-image: linear-gradient(to bottom, #191C26 1047px, #ffffff 138px);
 }
 
+@media screen and (min-width: 768px) {
+  .footer {
+    background-image: linear-gradient(to bottom, #191C26 993px, #ffffff 127px);
+  }
+}
+
 .footer-container {
   padding-top: 44px;
   padding-bottom: 44px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
 }
 
 .footer-list {
@@ -1033,6 +1056,12 @@ sup {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-list {
+    margin-bottom: 0px;
+  }
 }
 
 .footer-list::before {
@@ -1164,6 +1193,25 @@ sup {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .contacts {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #111319;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(17, 19, 25, 0.8)), to(rgba(17, 19, 25, 0.8))), url("../images/tablet/cover-image-2-768.jpg");
+    background-image: linear-gradient(to top, rgba(17, 19, 25, 0.8), rgba(17, 19, 25, 0.8)), url("../images/tablet/cover-image-2-768.jpg");
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .contacts {
+    background-color: #111319;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(17, 19, 25, 0.8)), to(rgba(17, 19, 25, 0.8))), url("../images/tablet/cover-image-2-768@2x.jpg");
+    background-image: linear-gradient(to top, rgba(17, 19, 25, 0.8), rgba(17, 19, 25, 0.8)), url("../images/tablet/cover-image-2-768@2x.jpg");
+  }
+}
+
 .contacts__title {
   margin-bottom: 40px;
   font-family: "Raleway";
@@ -1173,6 +1221,23 @@ sup {
   letter-spacing: 0.05em;
   text-align: center;
   color: #FFFFFF;
+}
+
+@media screen and (min-width: 768px) {
+  .contacts__title {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .address {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
 }
 
 .adress-list {

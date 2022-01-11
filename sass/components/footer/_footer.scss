@@ -3,11 +3,26 @@
         to bottom,
         #191C26 1047px,
         #ffffff 138px);
+
+
+    @media screen and (min-width: 768px) {
+        background-image: linear-gradient(
+            to bottom,
+            #191C26 993px,
+            #ffffff 127px);
+    }
 }
 
 .footer-container {
     padding-top: 44px;
     padding-bottom: 44px;
+        @media screen and (min-width: 768px) {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row-reverse;
+            padding-top: 56px;
+            padding-bottom: 56px;
+        }
 }
 
 .footer-list {
@@ -15,6 +30,9 @@
     align-items: center;
     margin-bottom: 20px;
     justify-content: flex-end;
+        @media screen and (min-width: 768px) {
+            margin-bottom: 0px;
+        }
 
         &::before {
             content: '';
