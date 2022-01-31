@@ -1276,10 +1276,23 @@ sup {
   }
 }
 
+@media screen and (min-width: 1280px) {
+  .portfolio-list__item {
+    width: calc((100% - 4 * 30px)/4);
+    margin: 15px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .portfolio-list__item:not(:last-child) {
     margin-bottom: 30px;
   }
+}
+
+.portfolio-list__image {
+  height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .footer {
