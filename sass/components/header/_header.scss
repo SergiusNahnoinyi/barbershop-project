@@ -11,6 +11,10 @@
         max-width: 480px;
         margin-bottom: 84px;
     }
+        @media (min-width: 1280px) {
+            max-width: 1280px;
+            margin-bottom: 130px;
+        }
 }
 
 .absolute-container {
