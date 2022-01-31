@@ -39,6 +39,12 @@ img {
             padding-left: 31px;
             padding-right: 31px;
         }
+
+            @media screen and (min-width: 1280px) {
+                max-width: 1280px;
+                padding-left: 55px;
+                padding-right: 55px;
+            }
 }
 
 .section {
@@ -46,4 +52,7 @@ img {
         @media screen and (max-width: 767px) {
             margin-bottom: 84px;
         }
+            @media screen and (min-width: 1280px) {
+                margin-bottom: 130px;
+            }
 }
