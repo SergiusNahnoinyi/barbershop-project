@@ -402,6 +402,12 @@ img {
   }
 }
 
+@media (min-width: 1280px) {
+  .line-container {
+    right: 55px;
+  }
+}
+
 .line {
   width: 8px;
   height: 2px;
@@ -427,6 +433,12 @@ img {
 @media (max-width: 767px) {
   .btn-container {
     display: none;
+  }
+}
+
+@media (min-width: 1280px) {
+  .btn-container {
+    right: 55px;
   }
 }
 

@@ -26,6 +26,9 @@
     @media (max-width: 767px) {
         display: none;
     }
+        @media (min-width: 1280px) {
+            right: 55px;
+        }
 }
 
 .line {
@@ -52,6 +55,9 @@
     @media (max-width: 767px) {
         display: none;
     }
+        @media (min-width: 1280px) {
+            right: 55px;
+        }
 }
 
 .btn {
