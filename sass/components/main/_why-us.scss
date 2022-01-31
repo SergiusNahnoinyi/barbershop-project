@@ -1,9 +1,20 @@
+.flex {
+    @media (min-width: 1280px) {
+       display: flex;
+       justify-content: space-between;
+       flex-direction: row-reverse;
+    }
+}
+
 .description-wrapper {
     margin-bottom: 64px;
         @media (min-width: 768px) {
             width: 500px;
             margin-bottom: 44px;
         }
+            @media (min-width: 1280px) {
+                margin-bottom: 0px;
+            }
 }
 
 .why-us__subtitle {
@@ -46,6 +57,9 @@
             width: 450px;
             margin-left: auto;  
         }
+            @media (min-width: 1280px) {
+                margin-left: 0;
+            }
 
     &__item {
         display: flex;

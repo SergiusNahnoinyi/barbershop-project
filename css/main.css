@@ -947,6 +947,21 @@ img {
   color: #FFF;
 }
 
+@media (min-width: 1280px) {
+  .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+}
+
 .description-wrapper {
   margin-bottom: 64px;
 }
@@ -955,6 +970,12 @@ img {
   .description-wrapper {
     width: 500px;
     margin-bottom: 44px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .description-wrapper {
+    margin-bottom: 0px;
   }
 }
 
@@ -1003,6 +1024,12 @@ img {
   .achievments-list {
     width: 450px;
     margin-left: auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .achievments-list {
+    margin-left: 0;
   }
 }
 
