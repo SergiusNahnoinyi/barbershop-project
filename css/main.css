@@ -1182,6 +1182,7 @@ sup {
 }
 
 .masters-list__image {
+  height: 336px;
   margin-bottom: 30px;
 }
 
