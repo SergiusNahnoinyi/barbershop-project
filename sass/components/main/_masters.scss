@@ -8,6 +8,10 @@
         padding-bottom: 100px;
         text-align: center;
     }
+        @media screen and (min-width: 1280px) {
+            padding-top: 130px;
+            padding-bottom: 130px;
+        }
 }
 
 .masters__subtitle {
@@ -44,16 +48,33 @@
     color: $other-text-color;
 }
 
+.masters-list {
+    @media (max-width: 1279px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+        @media (min-width: 1280px) {
+            display: flex;
+            flex-wrap: wrap;
+        }
+}
+
+.masters-list__item {
+    @media (min-width: 1280px) {
+        width: calc((100% - 3 * 30px)/3);
+        margin: 15px;
+    }
+}
+
 .masters-list__item:not(:last-child) {
-    margin-bottom: 64px;
+    @media screen and (max-width: 1279px) {
+        margin-bottom: 64px;
+    }
 }
 
 .masters-list__image {
     margin-bottom: 30px;
-        @media (min-width: 768px) {
-            margin-left: auto;
-            margin-right: auto;
-        }
 }
 
 .masters-list__title {
