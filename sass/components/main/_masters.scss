@@ -74,8 +74,10 @@
 }
 
 .masters-list__image {
-    height: 336px;
     margin-bottom: 30px;
+        @media (min-width: 480px) {
+            height: 336px;
+        }
 }
 
 .masters-list__title {
