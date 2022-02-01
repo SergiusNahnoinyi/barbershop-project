@@ -6,6 +6,11 @@
             padding-top: 100px;
             padding-bottom: 100px;
         }
+            @media screen and (min-width: 1280px) {
+                min-width: 655px;
+                padding-top: 130px;
+                padding-bottom: 130px;
+            }
 }
 
 .inquiry-form__title {
@@ -31,6 +36,10 @@
             display: inline-block;
             width: 330px;
         }
+            @media screen and (min-width: 1280px) {
+                display: inline-block;
+                width: 257.5px;
+            }
 }
 
 .inquiry-form__item:first-child {

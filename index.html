@@ -377,9 +377,9 @@
         </section>
     </main>
     <footer class="footer">
-        <div class="container">
-            <!-- Форма для заявок -->
-            <form class="inquiry-form" name="inquiry_form" autocomplete="off" novalidate>
+        <!-- Форма для заявок -->
+        <form class="inquiry-form" name="inquiry_form" autocomplete="off" novalidate>
+            <div class="container">
                 <h1 class="inquiry-form__title">Онлайн-запись</h1>
                 <ul class="inquiry-form__list"><!-- убирает зазор в строчно-блочных элементах
                 --><li class="inquiry-form__item">
@@ -387,56 +387,57 @@
                             <input class="inquiry-form__input" type="text" name="user_name" id="user-name" placeholder="Имя*" />
                         </label>
                     </li><!-- убирает зазор в строчно-блочных элементах
-                 --><li class="inquiry-form__item">
+                    --><li class="inquiry-form__item">
                         <label class="inquiry-form__label" for="user-name">
                             <input class="inquiry-form__input" type="text" name="user_name" id="user-name" placeholder="Телефон*" />
                         </label>
                     </li><!-- убирает зазор в строчно-блочных элементах
-                 --><li class="inquiry-form__item">
+                    --><li class="inquiry-form__item">
                         <label class="inquiry-form__label" for="user-comment">
                             <textarea class="inquiry-form__textarea" name="сomments" rows="5" placeholder="Сообщение" id="user-comment"></textarea>
                         </label>
                     </li>
                 </ul>
                 <button class="button inquiry-button" type="submit">Отправить</button>
-            </form>
-        </div>
-            <!-- Контакты -->
-            <section class="contacts" id="contacts">
-                <div class="container">
-                <h1 class="contacts__title">Контакты</h1>
-                <address class="address">
-                    <ul class="adress-list">
-                        <li class="adress-list__item">
+            </div>
+        </form>
+        <!-- Контакты -->
+        <section class="contacts" id="contacts">
+            <div class="container">
+            <h1 class="contacts__title">Контакты</h1>
+            <address class="address">
+                <ul class="adress-list">
+                    <li class="adress-list__item">
+                        <svg class="adress-list__icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-map-pin">
+                            </use>
+                        </svg>ул. Васильковая, 7А, Киев, 08132
+                    </li>
+                    <li class="adress-list__item">
+                        <a class="adress-list__link" href="tel:+380961111111" aria-label="Позвонить по телефону">
                             <svg class="adress-list__icon" width="24" height="24">
-                                <use href="./images/icons.svg#icon-map-pin">
+                                <use href="./images/icons.svg#icon-phone">
                                 </use>
-                            </svg>ул. Васильковая, 7А, Киев, 08132
-                        </li>
-                        <li class="adress-list__item">
-                            <a class="adress-list__link" href="tel:+380961111111" aria-label="Позвонить по телефону">
-                                <svg class="adress-list__icon" width="24" height="24">
-                                    <use href="./images/icons.svg#icon-phone">
-                                    </use>
-                                </svg>+38 044 111 11 11
-                            </a>
-                        </li>
-                        <li class="adress-list__item">
-                            <a class="adress-list__link" href="mailto:barbershop@email.com" aria-label="Написать на почту">
-                                <svg class="adress-list__icon" width="24" height="24">
-                                    <use href="./images/icons.svg#icon-mail">
-                                    </use>
-                                </svg>barbershop@email.com
-                            </a>
-                        </li>
-                    </ul>
-                    <div class="contacts__thumb">
-                        <h3 class="contacts__subtitle">Время работы</h3>
-                        <p class="contacts__description">Ежедневно с 9:00 до 22:00</p>
-                    </div>
-                </address>
+                            </svg>+38 044 111 11 11
+                        </a>
+                    </li>
+                    <li class="adress-list__item">
+                        <a class="adress-list__link" href="mailto:barbershop@email.com" aria-label="Написать на почту">
+                            <svg class="adress-list__icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-mail">
+                                </use>
+                            </svg>barbershop@email.com
+                        </a>
+                    </li>
+                </ul>
+                <div class="contacts__thumb">
+                    <h3 class="contacts__subtitle">Время работы</h3>
+                    <p class="contacts__description">Ежедневно с 9:00 до 22:00</p>
                 </div>
-            </section>
+            </address>
+            </div>
+        </section>
+        <!-- Копирайт -->
         <div class="container footer-container">
             <ul class="footer-list">
                 <li class="footer-list__item"><a class="footer-list__link" href="https://www.instagram.com/" target="_blank" aria-label="Instagram">Instagram</a></li>

@@ -29,6 +29,12 @@
                 url('../images/tablet/cover-image-2-768@2x.jpg');
         }
     }
+        @media screen and (min-width: 1280px) {
+            flex-grow: 1;
+            min-width: 625px;
+            padding-top: 130px;
+            padding-bottom: 130px;
+            }
 }
 
 .contacts__title {
@@ -50,6 +56,9 @@
         display: flex;
         justify-content: space-between;
     }
+        @media screen and (min-width: 1280px) {
+            flex-direction: column;
+        }
 }
 
 .adress-list {
@@ -59,6 +68,10 @@
     &__item:not(:last-child) {
         margin-bottom: 20px;
     }
+
+        @media screen and (min-width: 1280px) {
+            margin-bottom: 70px;
+        }
 }
 
 .adress-list__icon {

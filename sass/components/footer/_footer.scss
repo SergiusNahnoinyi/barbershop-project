@@ -11,6 +11,13 @@
             #191C26 993px,
             #ffffff 127px);
     }
+        @media screen and (min-width: 1280px) {
+            display: flex;
+            flex-wrap: wrap;
+            background-image: linear-gradient(to bottom,
+                #191C26 614px,
+                #ffffff 127px);
+        }
 }
 
 .footer-container {
@@ -23,6 +30,9 @@
             padding-top: 56px;
             padding-bottom: 56px;
         }
+            @media screen and (min-width: 1280px) {
+                width: 100%;
+            }
 }
 
 .footer-list {
